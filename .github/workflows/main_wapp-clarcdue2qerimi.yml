@@ -51,6 +51,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'wapp-clarcdue2qerimi'
-          slot-name: 'production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3F80326BBF443EEAA59334B8409EE29 }}
+          #slot-name: 'production'
+          publish-profile: ${{ secrets.NEW_AZ }}
           package: .
