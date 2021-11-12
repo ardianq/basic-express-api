@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - CLARCD_UE2Qerimi
+name: Build and deploy Node.js app to Azure Web App - CLARCDUE2Qerimi
 
 on:
   push:
@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'CLARCD_UE2Qerimi'
+          app-name: 'CLARCDUE2Qerimi'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3F80326BBF443EEAA59334B8409EE29 }}
           package: .
