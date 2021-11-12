@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'CLARCDUE2Qerimi'
-          slot-name: 'Production'
+          app-name: 'wapp-clarcdue2qerimi'
+          slot-name: 'production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3F80326BBF443EEAA59334B8409EE29 }}
           package: .
