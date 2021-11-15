@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'wapp-clarcdue2qerimi'
           #slot-name: 'production'
-          publish-profile: ${{ secrets.HUE2 }}
+          #publish-profile: ${{ secrets.HUE2 }}
           package: .
