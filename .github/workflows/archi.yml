@@ -1,5 +1,4 @@
 on: [push]
-branches: Architecture
 name: Azure ARM
 jobs:
   build-and-deploy:
